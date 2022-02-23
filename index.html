@@ -7,41 +7,42 @@
     <title>PicPro</title>
 </head>
 <body>  
-    <header>
-        <div>
-            <figure>
+    <header class="cabecalho">
+        <div class="container">
+            <figure class="cabecalho_logoPicpro">
                 <img src="assets/img/logo-picpro.png" alt="Logo Picpro">
+            </figure>
+            <figure class="cabecalho_logoKenzie">
                 <img src="assets/img/logo-kenzie.png" alt="Logo Kenzie">
             </figure>
         </div>
-        
     </header>
 
     <main>
-        <Section>
-            <div>
+        <Section class="secaoDetalhesConta">
+            <div class="secaoDetalhesConta_Usuario">
                 <div>
                     <img src="assets/img/usuario.png" alt="Ícone usuário">
                     <p>Olá, <strong>@usuário</strong></p>
                 </div>
-                <div>
+                <div class="secaoDetalhesConta_Saldo">
                     <p>Saldo PicPay <strong>R$ 0,00</strong></p>
                     <button>Extrato</button>
                 </div>
-                <ul>
-                    <li>
+                <ul class="secaoDetalhesConta_opcoesTransacoes">
+                    <li class="secaoDetalhesConta_itemTransacao">
                         <img src="assets/img/qrcode.png" alt="Ícone do QR Code">
                         <p>Qr Code</p>
                     </li>
-                    <li>
+                    <li class="secaoDetalhesConta_itemTransacao">
                         <img src="assets/img/pix.png" alt="Ícone do Pix">
                         <p>Pix</p>
                     </li>
-                    <li>
+                    <li class="secaoDetalhesConta_itemTransacao">
                         <img src="assets/img/codigo.png" alt="Ícone boleto">
                         <p>Pagar Boleto</p>
                     </li>
-                    <li>
+                    <li class="secaoDetalhesConta_itemTransacao">
                         <img src="assets/img/cobrar-icon.png" alt="Ícone de cobrar">
                         <p>Cobrar</p>
                     </li>
@@ -49,12 +50,12 @@
             </div>
         </Section>
 
-        <section>
+        <section class="secaoTransacao">
             <!-- Div geral -->
-            <div>
+            <div class="container">
 
                 <!-- Selecione a forma de pagamento -->
-                <div>
+                <div class="secaoTransacao_avisoSelecao">
                     <p>Selecione a forma de pagamento</p>
                     <img src="assets/img/banner.png" alt="Banner PicPay">
                 </div>
@@ -101,7 +102,42 @@
                 </div>
             </div>
         </section>
+        <footer>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/inicio.png" alt="Ícone início">
+                        <p>Início</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/carteira-icon.png" alt="Ícone carteira">
+                        <p>Carteira</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/pagar.png" alt="Ícone pagar">
+                        <p>Pagar</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/notificacao.png" alt="Ícone notificação">
+                        <p>Notificações</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./assets/img/bolsa.png" alt="Ícone da loja">
+                        <p>Store</p>
+                    </a>
+                </li>
+
+            </ul>            
+        </footer>
     </main>
-        
+       
 </body>
 </html>
