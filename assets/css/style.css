@@ -218,3 +218,60 @@ body {
     border: 1px solid #D2D2D2;
     color: #000;
 }
+
+.secaoTransacao_cobrar img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.secaoTransacao_cobrar h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secaoTransacao_cobrar p {
+    font-size: 18px;
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+.secaoTransacao_cobrar, .secaoTransacao_boxOpcao p {
+    margin-left: 10px;
+}
+
+.rodape {
+    background-color: #fff;
+}
+
+.rodape_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_menu li {
+    text-align: center;
+}
+
+.rodape_menu li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.rodape_menu li a img {
+    width: 100%;
+    max-width: 40px;
+}
+
+.rodape_menu li a p {
+    margin-top: 20px;
+}
+
+.rodape_menuItem--pagar {
+    transform: translateY(-20px);
+}
+
+.rodape_menuItem--pagar a img {
+    max-width: 80px;
+}
