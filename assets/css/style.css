@@ -3,6 +3,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 150px;
+}
+
 .cabecalho {
     padding: 20px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
@@ -161,10 +167,6 @@ body {
     color: #000;
 }
 
-/* .secaoTransacao_pix {
-    text-align: ;
-} */
-
 .secaoTransacao_pix img {
     width: 100%;
     max-width: 150px;
@@ -269,9 +271,9 @@ body {
 }
 
 .rodape_menuItem--pagar {
-    transform: translateY(-20px);
+    transform: translateY(-35px);
 }
 
-.rodape_menuItem--pagar a img {
+.rodape_menu .rodape_menuItem--pagar a img {
     max-width: 80px;
 }
