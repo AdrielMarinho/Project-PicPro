@@ -102,10 +102,10 @@ body {
     width: 80px;
 }
 
-.secaoDetalhesConta_itemTransacao:hover {
+/* .secaoDetalhesConta_itemTransacao:hover {
     background-color: #fff;
     color: #1F6F54;
-}
+} */
 
 .secaoTransacao {
     background-color: #fff;
@@ -160,4 +160,34 @@ body {
     font-weight: bold;
     color: #000;
 }
+
+/* .secaoTransacao_pix {
+    text-align: ;
+} */
+
+.secaoTransacao_pix img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.secaoTransacao_boxOpcao {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D2D2D2;
+    max-width: 500px;
+    padding: 15px 10px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.secaoTransacao_boxOpcao img {
+    width: 100%;
+    max-width: 50px;
+}
+
+.secaoTransacao_boxOpcao p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
 
