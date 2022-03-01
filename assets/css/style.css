@@ -43,11 +43,19 @@ body {
 .secaoDetalhesConta_Usuario p {
     font-size: 18px;
     margin-left: 10px;
+    margin-right: 418px;
 }
 
 .secaoDetalhesConta_Usuario img {
     width: 100%;
     max-width: 50px;
+}
+
+.secaoDetalhesConta_Usuario .icone {
+    margin-left: 50px;
+    width: 100%;
+    max-width: 40px;
+    transform: translateY(10px);
 }
 
 .secaoDetalhesConta_Usuario p strong {
