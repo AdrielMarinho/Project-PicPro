@@ -5,14 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PicPro</title>
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js"></script>
 </head>
 <body>  
     <header class="cabecalho">
@@ -35,23 +33,32 @@
                 </div>
                 <div class="secaoDetalhesConta_Saldo">
                     <p>Saldo PicPay <strong>R$ 0,00</strong></p>
+                    <img src="./assets/img/visualizar.png" alt="Visualizar saldo">
                     <button>Extrato</button>
                 </div>
                 <ul class="secaoDetalhesConta_opcoesTransacoes">
-                    <li class="secaoDetalhesConta_itemTransacao">
-                        <img src="assets/img/qrcode.png" alt="Ícone do QR Code">
+                    <li class="secaoDetalhesConta_itemTransacao secaoDetalhesConta_itemTransacao--QrCode">
+                        <figure>
+                            <img src="assets/img/qrcode.png" alt="Ícone do QR Code">
+                        </figure>
                         <p>Qr Code</p>
                     </li>
-                    <li class="secaoDetalhesConta_itemTransacao">
-                        <img src="assets/img/pix.png" alt="Ícone do Pix">
+                    <li class="secaoDetalhesConta_itemTransacao secaoDetalhesConta_itemTransacao--Pix">
+                        <figure>
+                            <img src="assets/img/pix.png" alt="Ícone do Pix">
+                        </figure>
                         <p>Pix</p>
                     </li>
-                    <li class="secaoDetalhesConta_itemTransacao">
-                        <img src="assets/img/codigo.png" alt="Ícone boleto">
+                    <li class="secaoDetalhesConta_itemTransacao secaoDetalhesConta_itemTransacao--Boleto">
+                        <figure>
+                            <img src="assets/img/codigo.png" alt="Ícone boleto">
+                        </figure>
                         <p>Pagar Boleto</p>
                     </li>
-                    <li class="secaoDetalhesConta_itemTransacao">
-                        <img src="assets/img/cobrar-icon.png" alt="Ícone de cobrar">
+                    <li class="secaoDetalhesConta_itemTransacao secaoDetalhesConta_itemTransacao--Cobrar">
+                        <figure>
+                            <img src="assets/img/cobrar-icon.png" alt="Ícone de cobrar">
+                        </figure>
                         <p>Cobrar</p>
                     </li>
                 </ul>

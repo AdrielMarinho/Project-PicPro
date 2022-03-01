@@ -63,6 +63,13 @@ body {
     align-items: center;
 }
 
+.secaoDetalhesConta_Saldo img {
+    width: 100%;
+    max-width: 32px;
+    transform: translateX(-270px);
+    margin-top: 18px;
+}
+
 .secaoDetalhesConta_Saldo p {
     font-size: 18px;
     line-height: 22px;
@@ -109,11 +116,61 @@ body {
     width: 80px;
 }
 
-/* .secaoDetalhesConta_itemTransacao:hover {
+.secaoDetalhesConta_itemTransacao:hover {
     background-color: #fff;
     color: #1F6F54;
-} */
+}
 
+.secaoDetalhesConta_itemTransacao figure {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.secaoDetalhesConta_itemTransacao--QrCode figure {
+    background-image: url(../img/qrcode.png);
+}
+
+.secaoDetalhesConta_itemTransacao--Pix figure {
+    background-image: url(../img/pix.png);
+}
+
+.secaoDetalhesConta_itemTransacao--Boleto figure {
+    background-image: url(../img/codigo.png);
+    width: 100%;
+    max-width: 65px;
+}
+
+.secaoDetalhesConta_itemTransacao--Cobrar figure {
+    background-image: url(../img/cobrar-icon.png);
+    width: 100%;
+    max-width: 60px;
+}
+
+.secaoDetalhesConta_itemTransacao--QrCode:hover figure {
+    background-image: url(../img/qrcode-verde.png);
+}
+
+.secaoDetalhesConta_itemTransacao--Pix:hover figure {
+    background-image: url(../img/pix-verde.png);
+}
+
+.secaoDetalhesConta_itemTransacao--Boleto:hover figure {
+    background-image: url(../img/boleto-verde.png);
+}
+
+.secaoDetalhesConta_itemTransacao--Cobrar:hover figure {
+    background-image: url(../img/cobrar-verde.png);
+}
+
+.secaoDetalhesConta_itemTransacao figure img{
+    width: 100%;
+    max-width: 25px;
+    height: 20px;
+    opacity: 0;
+}
 .secaoTransacao {
     background-color: #fff;
     border-radius: 20px;
