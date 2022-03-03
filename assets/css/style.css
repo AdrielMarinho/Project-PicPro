@@ -1,5 +1,5 @@
 body {
-    background-color: #4a8864;
+    background-color: #228664;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,6 +38,16 @@ body {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.secaoDetalhesConta_Usuario--nome, .secaoDetalhesConta_Usuario--icones {
+    display: flex;
+    align-items: center;
+}
+
+.secaoDetalhesConta_Usuario--icones img {
+    margin: 0 10px;
 }
 
 .secaoDetalhesConta_Usuario p {
@@ -51,12 +61,12 @@ body {
     max-width: 50px;
 }
 
-.secaoDetalhesConta_Usuario .icone {
+/* .secaoDetalhesConta_Usuario .icone {
     margin-left: 50px;
     width: 100%;
     max-width: 40px;
     transform: translateY(10px);
-}
+} */
 
 .secaoDetalhesConta_Usuario p strong {
     display: block;
@@ -71,21 +81,32 @@ body {
     align-items: center;
 }
 
-.secaoDetalhesConta_Saldo img {
+.secaoDetalhesConta_Saldo--valor {
+    display: flex;
+
+}
+
+/* .secaoDetalhesConta_Saldo img {
     width: 100%;
     max-width: 32px;
     transform: translateX(-270px);
     margin-top: 18px;
-}
+} */
 
 .secaoDetalhesConta_Saldo p {
     font-size: 18px;
     line-height: 22px;
 }
 
-.secaoDetalhesConta_Saldo p strong {
-    display: block;
+.secaoDetalhesConta_Saldo--valor p {
     font-weight: bold;
+}
+
+.secaoDetalhesConta_Saldo--valor img {
+    display: block;
+    height: 18px;
+    width: 30px;
+    margin-left: 18px;
 }
 
 .secaoDetalhesConta_Saldo button {
@@ -132,7 +153,6 @@ body {
 
 .secaoDetalhesConta_itemTransacao figure {
     background-repeat: no-repeat;
-    background-size: cover;
     display: block;
     height: 50px;
     width: 50px;
